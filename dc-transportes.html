@@ -2017,6 +2017,27 @@
     });
   })();
 </script>
+<style>
+  :root { --navy:#07152f; --navy-light:#102b57; --red:#e63946; --red-dark:#b91f32; --gold:#f3b52b; --gray:#f5f7fb; --gray-mid:#dce4ef; --text:#17243b; --text-muted:#66748a; }
+  body { background:#f7f9fc; color:var(--text); font-family:'Barlow',sans-serif; }
+  nav { background:rgba(7,21,47,.94)!important; backdrop-filter:blur(14px); box-shadow:0 8px 30px rgba(5,18,43,.18); border-bottom:1px solid rgba(255,255,255,.08); }
+  .nav-logo-img { filter:drop-shadow(0 4px 12px rgba(0,0,0,.25)); }
+  .nav-links a { transition:color .2s,transform .2s; }
+  .nav-links a:hover { color:var(--gold)!important; transform:translateY(-2px); }
+  #hero { position:relative; isolation:isolate; overflow:hidden; background:radial-gradient(circle at 80% 25%,#1c477d 0,#0b2148 42%,#07152f 100%)!important; }
+  #hero:before { content:''; position:absolute; inset:auto -10% -45% 35%; height:80%; border-radius:50%; background:rgba(243,181,43,.12); z-index:-1; }
+  #hero h1 { letter-spacing:-.035em; text-shadow:0 8px 22px rgba(0,0,0,.2); }
+  .btn-primary,.btn-whatsapp { border:0!important; border-radius:12px!important; box-shadow:0 10px 20px rgba(230,57,70,.22); transition:transform .2s,box-shadow .2s!important; }
+  .btn-primary:hover,.btn-whatsapp:hover { transform:translateY(-3px); box-shadow:0 15px 28px rgba(230,57,70,.3)!important; }
+  .servico-card,.dif-card,.cambio-card,.cambio-result,.curr-block { border:1px solid rgba(18,51,94,.08)!important; border-radius:18px!important; box-shadow:0 12px 35px rgba(24,48,82,.08); transition:transform .25s,box-shadow .25s; }
+  .servico-card:hover,.dif-card:hover,.cambio-card:hover,.curr-block:hover { transform:translateY(-6px); box-shadow:0 20px 42px rgba(24,48,82,.14); }
+  .serv-icon,.dif-icon { border-radius:14px!important; background:linear-gradient(135deg,var(--red),#ff6b5e)!important; box-shadow:0 8px 18px rgba(230,57,70,.2); }
+  input,textarea,select { border-radius:10px!important; border:1px solid #d8e1ec!important; transition:border-color .2s,box-shadow .2s; }
+  input:focus,textarea:focus,select:focus { outline:0; border-color:var(--red)!important; box-shadow:0 0 0 4px rgba(230,57,70,.12)!important; }
+  .curr-form,.contato-form { border-radius:20px!important; box-shadow:0 20px 55px rgba(5,18,43,.13); }
+  footer { background:var(--navy)!important; }
+  @media (max-width:700px) { #hero h1 { font-size:clamp(2.4rem,12vw,4rem); } section { padding-left:20px!important; padding-right:20px!important; } .servico-card,.dif-card,.cambio-card,.curr-block { border-radius:14px!important; } }
+</style>
 <script src="frontend/scripts/script.js"></script>
 
 </body>
