@@ -18,7 +18,7 @@ if not exist "%API%\node_modules" (
 )
 
 start "DC Transportes - API" cmd /k "cd /d "%API%" && echo Iniciando API em http://localhost:3333 && call npm.cmd run dev"
-start "DC Transportes - Front" cmd /k "cd /d "%ROOT%" && echo Front em http://localhost:5500 && python -m http.server 5500"
+start "DC Transportes - Front" cmd /k "cd /d "%ROOT%" && echo Front em http://localhost:5500 && call npx.cmd --yes serve -l 5500"
 
 echo.
 echo API:   http://localhost:3333

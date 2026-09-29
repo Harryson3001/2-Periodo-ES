@@ -12,3 +12,5 @@
 ├── iniciar-projeto.cmd    # Inicia front e back
 └── parar-projeto.cmd      # Encerra front e back
 ```
+
+O inicializador usa Node/npm para servir o front; Python não é necessário.
