@@ -1231,7 +1231,7 @@
     <li><a href="#cambio">Câmbio</a></li>
     <li><a href="#curriculo">Trabalhe Conosco</a></li>
     <li><a href="#contato" class="nav-cta">Fale Conosco</a></li>
-    <li><a href="frontend/admin/login.html" class="nav-admin">Área administrativa</a></li>
+    <li><a href="frontend/admin/login.html" class="nav-cta nav-login">Login</a></li>
   </ul>
   <button class="mobile-menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-menu">
     <span></span>
@@ -1263,6 +1263,7 @@
     </p>
     <div class="hero-actions">
       <a href="#sobre" class="btn-primary">Conheça a DC</a>
+      <a href="frontend/admin/login.html" class="btn-login-hero">Login administrativo</a>
     </div>
     <div class="hero-stats">
     </div>
@@ -2025,7 +2026,9 @@
   .nav-logo-img { filter:drop-shadow(0 4px 12px rgba(0,0,0,.25)); }
   .nav-links a { transition:color .2s,transform .2s; }
   .nav-links a:hover { color:var(--gold)!important; transform:translateY(-2px); }
-  .nav-admin { color:var(--gold)!important; font-weight:700; }
+  .nav-login { color:#fff!important; background:var(--red)!important; padding:10px 16px!important; border-radius:10px!important; font-weight:700; }
+  .btn-login-hero { display:inline-flex; align-items:center; margin-left:10px; padding:13px 20px; border:1px solid rgba(255,255,255,.5); border-radius:12px; color:#fff; text-decoration:none; font-weight:700; transition:.2s; }
+  .btn-login-hero:hover { background:#fff; color:var(--navy); transform:translateY(-3px); }
   #hero { position:relative; isolation:isolate; overflow:hidden; background:radial-gradient(circle at 80% 25%,#1c477d 0,#0b2148 42%,#07152f 100%)!important; }
   #hero:before { content:''; position:absolute; inset:auto -10% -45% 35%; height:80%; border-radius:50%; background:rgba(243,181,43,.12); z-index:-1; }
   #hero h1 { letter-spacing:-.035em; text-shadow:0 8px 22px rgba(0,0,0,.2); }
