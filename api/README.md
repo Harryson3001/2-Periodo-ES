@@ -9,8 +9,11 @@ copy .env.example .env
 npm install
 npm run db:generate
 npm run db:push
+npm run db:seed
 npm run dev
 ```
+
+`db:seed` insere solicitações fictícias para demonstração e não duplica dados se o banco já tiver registros.
 
 Edite `DATABASE_URL` no `.env` com os dados do SQL Server antes de executar `npm run db:push`.
 
