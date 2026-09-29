@@ -12,6 +12,8 @@ npm run db:push
 npm run dev
 ```
 
+Edite `DATABASE_URL` no `.env` com os dados do SQL Server antes de executar `npm run db:push`.
+
 Documentação: `http://localhost:3333/docs`  
 Health check: `http://localhost:3333/health`
 
