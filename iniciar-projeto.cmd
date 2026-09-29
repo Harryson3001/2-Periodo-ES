@@ -23,7 +23,7 @@ start "DC Transportes - Front" cmd /k "cd /d "%ROOT%" && echo Front em http://lo
 echo.
 echo API:   http://localhost:3333
 echo Front: http://localhost:5500
-echo Painel: http://localhost:5500/login.html
+echo Painel: http://localhost:5500/frontend/admin/login.html
 echo.
 timeout /t 3 >nul
 endlocal
